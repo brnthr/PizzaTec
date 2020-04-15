@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  mer. 15 avr. 2020 à 10:28
+-- Généré le :  mer. 15 avr. 2020 à 10:35
 -- Version du serveur :  5.6.38
 -- Version de PHP :  7.2.1
 
@@ -76,7 +76,6 @@ CREATE TABLE `personne` (
 
 INSERT INTO `personne` (`perso_id`, `perso_nom`, `perso_prenom`, `perso_mail`, `perso_psw`, `role`) VALUES
 (35, 'test', 'test', 'test@test.com', '$2y$10$c1DFe1yq4QigEfYhpfvpfecMU1YyWiVdHpqF4V2gkt2rCU0/fOih2', 0),
-(37, 'admin', 'admin', 'admin@admin.com', '$2y$10$Jkb2Z0QkF.SmUbuktEFnuexKmPMXwtOwc5jS7AINHaJn9xotbnuYm', 1),
 (38, 'user1', 'user1', 'user1@user1.com', '$2y$10$Vo6su6Cfm3ORtcjmV4KE3./rpZboUdn4mrHp2LpLDMrEE61zd5Bem', 0);
 
 --
