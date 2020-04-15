@@ -37,7 +37,7 @@
     <a class="btn btn-lg btn-warning btn-block" href="index.php"><i class="fas fa-home"></i> Accueil</a>
 
 
-    <p class="mt-5 mb-3 text-muted">&copy; Développé par Emilien GELLAERTS & Bryan THEURIER</p>
+    <p class="mt-5 mb-3 text-muted">&copy; Développé par Bryan THEURIER</p>
 </form>
 </body>
 </html>

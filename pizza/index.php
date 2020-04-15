@@ -108,7 +108,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-dark">
     <div class="container">
-        <p class="m-0 text-center text-white">&copy; Développé par Emilien GELLAERTS & Bryan THEURIER</p>
+        <p class="m-0 text-center text-white">&copy; Développé par Bryan THEURIER</p>
     </div>
     <!-- /.container -->
 </footer>

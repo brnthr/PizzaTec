@@ -1,14 +1,12 @@
 <?php
 
+    session_start();
+
+    // Suppression des variables de session et de la session
+    $_SESSION = array();
+    session_destroy();
 
 
-session_start();
-
-// Suppression des variables de session et de la session
-$_SESSION = array();
-session_destroy();
-
-
-header('Location: connexion.php');
+    header('Location: connexion.php');
 
 ?>

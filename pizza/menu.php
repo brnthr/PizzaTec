@@ -67,7 +67,6 @@ else {
       </div>
     </nav>
 
-    <?php if ($_SESSION['role'] == 0) {?>
     <!-- Page Content -->
     <div class="container">
 
@@ -150,94 +149,10 @@ else {
 
 
 
-    <?php } else { ?>
-    <!-- Page Content Admin-->
-    <div class="container">
-
-      <!-- Jumbotron Header -->
-      <header class="jumbotron my-4">
-        <h1 class="display-4">Admin</h1>
-        <div class="lead">1 Rue du Port de Valvins, 77215 Avon</div>
-      </header>
-
-      <!-- Page Features -->
-      <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.dominos.fr/ManagedAssets/FR/product/PCHP/FR_PCHP_fr_hero_1850.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">ORIGINALE PEPPERONI</h4>
-              <p class="card-text">33cm de diamètre pour 2/3 personnes</p>
-              <p class="card-text">10€</p>
-            </div>
-              <div class="card-footer">
-                  <a href="panier.php?action=ajout&amp;l=Pepperoni&amp;q=1&amp;p=10" onclick="window.blank(this.href, '',
-'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.dominos.fr/ManagedAssets/FR/product/PSME/FR_PSME_fr_hero_1850.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">SPÉCIALE MERGUEZ</h4>
-              <p class="card-text">33cm de diamètre pour 2/3 personnes</p>
-              <p class="card-text">10€</p>
-            </div>
-              <div class="card-footer">
-                  <a href="panier.php?action=ajout&amp;l=Merguez&amp;q=1&amp;p=10" onclick="window.blank(this.href, '',
-'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.dominos.fr/ManagedAssets/FR/product/PCJA/FR_PCJA_fr_hero_1850.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">CLASSIQUE JAMBON</h4>
-              <p class="card-text">33cm de diamètre pour 2/3 personnes</p>
-              <p class="card-text">10€</p>
-            </div>
-              <div class="card-footer">
-                  <a href="panier.php?action=ajout&amp;l=Reine&amp;q=1&amp;p=10" onclick="window.blank(this.href, '',
-'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.dominos.fr/ManagedAssets/FR/product/PMAR/FR_PMAR_fr_hero_1850.png" alt="">
-            <div class="card-body">
-              <h4 class="card-title">BASIQUE MARGHERITA</h4>
-              <p class="card-text">33cm de diamètre pour 2/3 personnes</p>
-              <p class="card-text">10€</p>
-            </div>
-              <div class="card-footer">
-                  <a href="panier.php?action=ajout&amp;l=Margherita&amp;q=1&amp;p=10" onclick="window.blank(this.href, '',
-'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a>
-              </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-    <?php } ?>
-
-
-
-
-
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-          <p class="m-0 text-center text-white">&copy; Développé par Emilien GELLAERTS & Bryan THEURIER</p>
+          <p class="m-0 text-center text-white">&copy; Développé par Bryan THEURIER</p>
       </div>
       <!-- /.container -->
     </footer>
